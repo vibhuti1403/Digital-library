@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vartika.newapp.EditProfile"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bookName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/bookAuthor"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/bookAuthor"
+            android:layout_marginTop="11dp"
+            android:layout_toStartOf="@+id/checkBox"
+            android:text="book"
+            android:textColor="#2c9098"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/bookName"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/checkBox"
+            android:text="author"
+            android:textColor="#a79522"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/bookName"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp" />
+
+        <ImageView
+            android:id="@+id/updateMe"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/edit"
+            android:layout_below="@+id/checkBox"
+            android:layout_toEndOf="@+id/bookAuthor" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

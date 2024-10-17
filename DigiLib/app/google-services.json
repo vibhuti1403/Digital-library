@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343011784709",
+    "firebase_url": "https://digilib-3466b.firebaseio.com",
+    "project_id": "digilib-3466b",
+    "storage_bucket": "digilib-3466b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343011784709:android:d497aca23c426c0b",
+        "android_client_info": {
+          "package_name": "com.rcpl.digilib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343011784709-i3vvldp2c9svdgnl5253ikrvkejvrg39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rcpl.digilib",
+            "certificate_hash": "24c8f6099578d40b2906f48db6febb57a5a2f985"
+          }
+        },
+        {
+          "client_id": "343011784709-0cfvg6624mde5u5l5f5omr0ojvp2cl10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUTcI6RpftX4i_T_9yN-t4QkOvrjF7L3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343011784709-0cfvg6624mde5u5l5f5omr0ojvp2cl10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

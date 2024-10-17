@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.rcpl.digilib.AdminPage"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TVBookHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heading"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#2c9098"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TVAuthorDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="authorname"
+                android:textColor="#a79522" />
+
+            <TextView
+                android:id="@+id/TVPubDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="publicationname"
+                android:textColor="#a79522" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

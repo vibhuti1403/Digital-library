@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rcpl.digilib.DashBoardActivity">
+
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="101"
+        android:title="Edit Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="101"
+        android:title="Upload Files"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/bellicon"
+        android:orderInCategory="100"
+        android:title="Notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_favourites"
+        android:orderInCategory="103"
+        android:title="Favourites" />
+    <item
+        android:id="@+id/action_request"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="107"
+        android:title="Request" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="108"
+        android:title="Sign Out" />
+</menu>
